@@ -27,6 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="manualJokes" exported="" />
+    <orderEntry type="module" module-name="manualJokes" exported="" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-cloud-storage-1.40.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="endpoints-framework-2.0.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-appengine-1.21.0" level="project" />
@@ -34,37 +37,56 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-cloud-core-http-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-cloud-core-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-services-storage-v1-rev135-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-core-1.5.9" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="guava-19.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="gax-httpjson-0.47.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="gax-1.30.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="protobuf-java-util-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-auth-library-oauth2-http-0.10.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="opencensus-contrib-http-util-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="opencensus-api-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="proto-google-iam-v1-0.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="api-common-1.7.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="guava-20.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-models-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-databind-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-annotations-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-datatype-joda-2.4.5" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-dataformat-yaml-2.4.5" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jackson2-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-core-2.6.4" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jackson2-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-core-2.9.2" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="appengine-api-1.0-sdk-1.9.56" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-appengine-1.21.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jackson-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-jdo-1.21.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="jsr305-3.0.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-appengine-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="jsr305-3.0.2" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="slf4j-nop-1.7.21" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="joda-time-2.9.2" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="proto-google-common-protos-1.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="google-auth-library-credentials-0.10.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="slf4j-api-1.7.21" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-annotations-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-lang3-3.2.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="threetenbp-1.3.3" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="protobuf-java-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="gson-2.7" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="jackson-core-asl-1.9.11" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="grpc-context-1.12.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="jdo2-api-2.3-eb" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="joda-time-2.2" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="snakeyaml-1.12" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="transaction-api-1.1" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="guava-jdk5-17.0" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="httpclient-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="httpcore-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="commons-logging-1.1.1" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="commons-codec-1.3" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="httpclient-4.5.3" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="httpcore-4.4.6" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="commons-codec-1.9" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-cloud-storage-1.40.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="endpoints-framework-2.0.9" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-appengine-1.21.0" level="project" />
@@ -72,37 +94,56 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-oauth-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-cloud-core-http-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-cloud-core-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-services-storage-v1-rev135-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="swagger-core-1.5.9" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="guava-19.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="gax-httpjson-0.47.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="gax-1.30.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="protobuf-java-util-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-auth-library-oauth2-http-0.10.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="opencensus-contrib-http-util-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="opencensus-api-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="proto-google-iam-v1-0.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="api-common-1.7.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="guava-20.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="swagger-models-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-databind-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-annotations-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-datatype-joda-2.4.5" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-dataformat-yaml-2.4.5" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-jackson2-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-core-2.6.4" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-jackson2-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-core-2.9.2" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="appengine-api-1.0-sdk-1.9.56" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-appengine-1.21.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-jackson-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-jdo-1.21.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="google-oauth-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="jsr305-3.0.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-appengine-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-oauth-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="jsr305-3.0.2" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="slf4j-nop-1.7.21" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="joda-time-2.9.2" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="proto-google-common-protos-1.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="google-auth-library-credentials-0.10.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="slf4j-api-1.7.21" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="swagger-annotations-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="commons-lang3-3.2.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="threetenbp-1.3.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="protobuf-java-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="gson-2.7" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="jackson-core-asl-1.9.11" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="grpc-context-1.12.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="jdo2-api-2.3-eb" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="joda-time-2.2" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="snakeyaml-1.12" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="transaction-api-1.1" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="guava-jdk5-17.0" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="httpclient-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="httpcore-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="commons-logging-1.1.1" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="commons-codec-1.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="httpclient-4.5.3" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="httpcore-4.4.6" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="commons-codec-1.9" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-cloud-storage-1.40.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="endpoints-framework-2.0.9" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-appengine-1.21.0" level="project" />
@@ -110,36 +151,54 @@
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-oauth-client-servlet-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="google-api-client-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-cloud-core-http-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-api-client-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-cloud-core-1.40.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-api-services-storage-v1-rev135-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="swagger-core-1.5.9" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="guava-19.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="gax-httpjson-0.47.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="gax-1.30.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="protobuf-java-util-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-auth-library-oauth2-http-0.10.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="opencensus-contrib-http-util-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="opencensus-api-0.15.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="proto-google-iam-v1-0.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="api-common-1.7.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="guava-20.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="swagger-models-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jackson-databind-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jackson-annotations-2.6.4" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jackson-datatype-joda-2.4.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jackson-dataformat-yaml-2.4.5" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-jackson2-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="jackson-core-2.6.4" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-jackson2-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="jackson-core-2.9.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="appengine-api-1.0-sdk-1.9.56" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-appengine-1.21.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-jackson-1.24.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-http-client-jdo-1.21.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="google-oauth-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-1.23.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="jsr305-3.0.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-appengine-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-oauth-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-http-client-1.24.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="jsr305-3.0.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="slf4j-nop-1.7.21" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="joda-time-2.9.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="proto-google-common-protos-1.12.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="google-auth-library-credentials-0.10.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="slf4j-api-1.7.21" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="swagger-annotations-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="commons-lang3-3.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="validation-api-1.1.0.Final" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="threetenbp-1.3.3" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="protobuf-java-3.6.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="gson-2.7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="jackson-core-asl-1.9.11" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="grpc-context-1.12.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jdo2-api-2.3-eb" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="joda-time-2.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="snakeyaml-1.12" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="transaction-api-1.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="guava-jdk5-17.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="httpclient-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="httpcore-4.0.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="commons-logging-1.1.1" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="commons-codec-1.3" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="httpclient-4.5.3" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="httpcore-4.4.6" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="commons-codec-1.9" level="project" />
   </component>
 </module>

@@ -16,11 +16,27 @@
         android:text="@string/instructions" />
 
     <Button
+        android:id="@+id/tell_joke_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/instructions_text_view"
         android:onClick="tellJoke"
         android:text="@string/button_text" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/tell_joke_button"
+        android:visibility="gone"
+        tools:visibility="visible" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"

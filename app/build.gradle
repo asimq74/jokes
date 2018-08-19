@@ -30,6 +30,22 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+    }
+    flavorDimensions "version"
+    productFlavors {
+        paid {
+            // Assigns this product flavor to the "version" flavor dimension.
+            // This property is optional if you are using only one dimension.
+            dimension "version"
+            applicationIdSuffix ".paid"
+            versionNameSuffix "-paid"
+        }
+        free {
+            dimension "version"
+            applicationIdSuffix ".free"
+            versionNameSuffix "-freel"
+        }
     }
 }
 
@@ -45,7 +61,7 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-
+    endpointsServer project(path: ':backend', configuration: 'endpoints')
     testImplementation 'junit:junit:4.12'
     api project(":displayjoke")
 }

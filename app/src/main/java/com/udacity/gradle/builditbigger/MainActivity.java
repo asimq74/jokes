@@ -92,7 +92,7 @@ private ProgressBar progressBar;
             try {
                 return myApiService.tellJoke().execute().getData();
             } catch (IOException e) {
-                return e.getMessage();
+                return "";
             }
         }
 
